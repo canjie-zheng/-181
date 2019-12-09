@@ -92,4 +92,4 @@ try {
 						JOptionPane.showMessageDialog(null, "注册失败!!", "通知", 1);
 						e1.printStackTrace();
             六、运行截图
-            
+            https://github.com/canjie-zheng/-181/blob/master/50f81ca0221d061480e72a95763193c.png
