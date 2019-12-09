@@ -15,4 +15,6 @@
 学生信息包括 注册学生用户名密码 学生姓名 登录密码 学生修改密码 打印学生选课列表
 查询所选课程  退选课程 学生退课打印学生选课列表
 四、流程图https://github.com/canjie-zheng/-181/blob/master/%E5%AD%A6%E7%94%9F.jpg
+https://github.com/canjie-zheng/-181/blob/master/%E6%95%99%E5%B8%88.jpg
+五、核心代码和注释
 
