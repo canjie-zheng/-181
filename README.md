@@ -14,10 +14,11 @@
 课程信息包括课程编号 课程名称 课程学分
 学生信息包括 注册学生用户名密码 学生姓名 登录密码 学生修改密码 打印学生选课列表
 查询所选课程  退选课程 学生退课打印学生选课列表
-四、流程图https://github.com/canjie-zheng/-181/blob/master/%E5%AD%A6%E7%94%9F.jpg
-https://github.com/canjie-zheng/-181/blob/master/%E6%95%99%E5%B8%88.jpg
+四、流程图  
+![liucheng](https://github.com/canjie-zheng/-181/blob/master/%E5%AD%A6%E7%94%9F.jpg)
+![liucheng](https://github.com/canjie-zheng/-181/blob/master/%E6%95%99%E5%B8%88.jpg)
 五、核心代码和注释
-// 启动jar包路径
+```// 启动jar包路径
 	private static String driver = "com.mysql.jdbc.Driver";
 
 	// 数据库路径
@@ -91,11 +92,12 @@ try {
 					} catch (Exception e1) {
 						JOptionPane.showMessageDialog(null, "注册失败!!", "通知", 1);
 						e1.printStackTrace();
-            六、运行截图
-            https://github.com/canjie-zheng/-181/blob/master/50f81ca0221d061480e72a95763193c.png
-	    https://github.com/canjie-zheng/-181/blob/master/b27505592c6821ac1dc0b4fc0f0db5b.png
-	    https://github.com/canjie-zheng/-181/blob/master/c9df13160d4d1e42d72cacb07c137d2.png
-	    https://github.com/canjie-zheng/-181/blob/master/ed2b6ad826858a14fc3162aaf647048.png
+```
+六、运行截图
+            ![jietu1](https://github.com/canjie-zheng/-181/blob/master/50f81ca0221d061480e72a95763193c.png)
+	    ![jietu1](https://github.com/canjie-zheng/-181/blob/master/b27505592c6821ac1dc0b4fc0f0db5b.png)
+	    ![jietu1](https://github.com/canjie-zheng/-181/blob/master/c9df13160d4d1e42d72cacb07c137d2.png)
+	    ![jietu1](https://github.com/canjie-zheng/-181/blob/master/ed2b6ad826858a14fc3162aaf647048.png)
 	    七、编程感想
 	    这次的实验可以说花了我很多时间，对我来说特别忙，但是也反应出我基础还是不扎实，还没研究透，起初一直调试不出了合适的GUI界面来承载实验二的选课系统的功能，自己不断地修改，调试，还是不行，自己找不出原因了，最后还是找了学长帮忙，一下就给我找出了很多问题，而且在他的帮助下，我的GUI显示异常、获取数据等改变了很多，而且很多还是我没见过的，这就更加说明我还有很多没掌握，我一定会不断地学习，java这门课对我来说只有不断的研究，才能不断地进步。
 调试
